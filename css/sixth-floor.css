@@ -1,0 +1,149 @@
+.sixth-floor {
+	margin: 0;
+	padding: 6.59vw 0 6.78vw 10.51vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.sxf-left {
+	margin: 0;
+	width: 51.01vw;
+}
+.sxf-left > h2 {
+	margin: 0 0 2.85vw 0;
+	height: 2.03vw;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2.66vw;
+	line-height: 0px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02vw;
+	text-transform: uppercase;
+	color: #000000;
+}
+.sxf-left > p {
+	margin: 0 0 3.7vw 0;
+	width: 47.62vw;
+	height: 4.62vw;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.01vw;
+	line-height: 1.77vw;
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+.sxf-left > hr {
+	margin: 0 0 4.62vw 0;
+	width: 134px;
+	height: 0.32vw;
+	background: #FF2D2D;
+}
+.sxf-left-user-info {
+	display: flex;
+	flex-wrap: wrap;
+	width: 46.52vw;
+}
+.sxf-left-user-info > div {
+	margin: 0 0 2.92vw 0;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 100%;
+}
+.sxf-left-user-info > div > input {
+	margin: 0;
+	padding: 0 0 0 3.8vw;
+	width: 46.01%;
+	height: 4.5vw;
+	background: rgb(229, 229, 229);
+	border-radius: 0.44vw;
+	border: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.14vw;
+	line-height: 2.15vw;
+	letter-spacing: 0.02vw;
+	mix-blend-mode: normal;
+	color: #000000;
+}
+.sxf-left-user-info > div > input::placeholder {
+	color: #000000;
+}
+.sxf-left-user-info > textarea {
+	margin: 0 0 2.08vw 0;
+	padding: 2.08vw 3.36vw 0;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.01vw;
+	line-height: 1.77vw;
+	width: 46.54vw;
+	height: 15.96vw;
+	mix-blend-mode: normal;
+	background: rgb(229, 229, 229);
+	border-radius: 0.44vw;
+	border: 0;
+	box-sizing: border-box;
+	color: #000000;
+}
+.sxf-left-user-info > textarea::placeholder {
+	color: #000000;
+}
+.sxf-left-user-info > button {
+	width: 46.54vw;
+	height: 4.75vw;
+	border: 0;
+	border-radius: 0.44vw;
+	background: #FF3B3B;
+	cursor: pointer;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.13vw;
+	line-height: 2.15vw;
+	letter-spacing: 0.02vw;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.sxf-right {
+	margin: 0;
+	width: 36.73vw;
+	height: 30.72vw;
+	background: #2D2D2D;
+	display: flex;
+	align-items: center;
+}
+.sxf-right-contacts {
+	margin: 0;
+	padding-left: 5.13vw;
+	width: 19.95vw;
+}
+.sxf-right-contacts > h6 {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.13vw;
+	line-height: 2.15vw;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02vw;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.sxf-right-contacts > p {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.01vw;
+	line-height: 1.77vw;
+	color: #FFFFFF;
+}
+@media screen and (max-width: 997px) {
+	.sixth-floor{
+		justify-content: center;
+	}
+	.sxf-left {
+		margin: 0 0 6.78vw 0;
+	}
+}

@@ -1,0 +1,91 @@
+.second-floor {
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 6.81vw 10.39vw 3.74vw 10.51vw;
+}
+.sf-left {
+	margin: 0 0 7.09vw 0;
+	width: 34.14vw;
+	min-width: 539px;
+}
+.sf-left-question {
+	margin: 0 0 3.2vw 0;
+	width: 33.12vw;
+	height: 5.51vw;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2.67vw;
+	line-height: 3.48vw;
+	align-items: center;
+	letter-spacing: 0.422159px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.sf-left-answer {
+	margin: 0 0 5.03vw 0;
+	height: 6.21vw;
+	font-family: OpenSans;
+	font-size: 1.01vw;
+	line-height: 1.77vw;
+	align-items: center;
+	color: #000000;
+}
+.sf-left > button {
+	margin: 0;
+	width: 14.38vw;
+	height: 3.48vw;
+	background: rgba(0, 0, 0, 0.0001);
+	border: 2px solid #FF0000;
+	border-radius: 0.31vw;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.14vw;
+	line-height: 2.15vw;
+    letter-spacing: 0.02vw;
+    text-decoration: none;
+    color: #FF2D2D;
+	cursor: pointer;
+}
+.sf-right {
+	margin: 0;
+	width: 40.72vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.sf-right-block {
+	max-width: 46.81%;
+	margin-bottom: 3.36vw;
+}
+.sf-right-block > h4 {
+	margin: 2.04vw 0 0 0;
+	height: 1.52vw;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.52vw;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02vw;
+	color: #000000;
+}
+.sf-right-block > p {
+	margin: 0.82vw 0 0 0;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.01vw;
+	line-height: 1.77vw;
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+.hr {
+	margin: 0 10.39vw 0 10.51vw;
+	max-height: 0.32vw;
+	align-self: center;
+	background: #ECECEC;
+}
