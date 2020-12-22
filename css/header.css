@@ -1,3 +1,7 @@
+@font-face {
+   font-family: "Open Sans";
+   src: url("fonts/OpenSans-ExtraBold.ttf") format("ttf");
+}
 body {
    height: 100vh;
    display: flex;
